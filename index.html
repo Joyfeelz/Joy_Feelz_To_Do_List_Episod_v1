@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen Rebirth To-Do List App</title>
+    <link rel="stylesheet" href="./assets/css/pen-rebirth-style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.min.js"></script>
+</head>
+<body>
+    <div class="penrebirth-app">
+        <h2 style="margin-top:10px;">Pen-Rebirth To-Do List V1🚀</h2>
+        <header>
+            <input type="text" id="penrebirth-search" placeholder="Search tasks..." style="width:70%">
+            <button id="penrebirth-toggle-theme">Dark Mode</button>
+        </header>
+
+        <div class="penrebirth-task-creator">
+            <input type="text" id="penrebirth-task-input" placeholder="Enter a new task...">
+            <textarea id="penrebirth-description-input" placeholder="Enter task description..."></textarea>
+            <button id="penrebirth-add-task">Add Task</button>
+        </div>
+
+        <ul id="penrebirth-task-list"></ul>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="clickSound" src="./audio/click.wav"></audio>
+    <audio id="successSound" src="./audio/success.wav"></audio>
+
+    <script src="./assets/js/pen-rebirth-script.js"></script>
+</body>
+</html>

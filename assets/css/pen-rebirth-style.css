@@ -1,0 +1,184 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* App Container */
+.penrebirth-app {
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+body.dark-mode .penrebirth-app {
+    background: #1e1e1e;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Search and Toggle Button */
+#penrebirth-search, #penrebirth-toggle-theme {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#penrebirth-toggle-theme-later {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    animation: bounce 1s infinite alternate;
+}
+
+/* Task Creator */
+.penrebirth-task-creator {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Input & Textarea Fields */
+.penrebirth-task-creator input, .penrebirth-task-creator textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    outline: none;
+}
+
+.penrebirth-task-creator input:focus, .penrebirth-task-creator textarea:focus {
+    border-color: #28a745;
+}
+
+/* Add Task Button */
+.penrebirth-task-creator button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.penrebirth-task-creator button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Task List */
+#penrebirth-task-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Task Item */
+.penrebirth-task {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    animation: slideIn 0.4s ease-out;
+}
+
+body.dark-mode .penrebirth-task {
+    background-color: #292929;
+}
+
+/* Task Title */
+.penrebirth-task span {
+    font-weight: bold;
+}
+
+/* Task Description */
+.penrebirth-task .description {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    transition: color 0.3s;
+}
+
+body.dark-mode .penrebirth-task .description {
+    color: #aaa;
+}
+
+/* Task Buttons */
+.penrebirth-task .task-buttons {
+    margin-top: 10px;
+}
+
+.penrebirth-task button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff7f50;
+    color: white;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.penrebirth-task button:hover {
+    background-color: #ff4b1f;
+    transform: scale(1.05);
+}
+
+/* Task Editing Animation */
+.penrebirth-task.editing {
+    animation: shake 0.3s;
+}
+
+/* Animations */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+    0% { transform: translateY(-10px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-5px); }
+}
+
+/* Delete Animation */
+@keyframes fadeOut {
+    0% { opacity: 1; transform: scale(1); }
+    100% { opacity: 0; transform: scale(0.9); }
+}
