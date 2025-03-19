@@ -20,14 +20,15 @@ This is the first episode in a series of to-do list apps, with more features and
 
 
 ## 🛠️ Technologies Used  
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)  
+
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
 
 ## 🔗 Live Demo  
-[![🌐 View Live Demo](https://img.shields.io/badge/View-Live%20Demo-brightgreen?style=for-the-badge)](https://joyfeelz.github.io/Joy_Feelz_To_Do_List_Episod_v1/)
+[![🌐 View Live Demo](https://img.shields.io/badge/View-Live%20Demo-brightgreen?style=for-the-badge)](https://Joyfeelz.github.io/Joy_Feelz_To_Do_List_Episod_v1/)
 
 ---
 
@@ -51,12 +52,12 @@ Joy_Feelz_To_Do_List_Episod_v1/
 
 1. **Clone the repository:**  
    ```sh
-   git clone https://github.com/joyfeelz/Joy_Feelz_To_Do_List_Episod_v1.git
+   git clone https://github.com/Joyfeelz/Joy_Feelz_To_Do_List_Episod_v1.git
    ```
 2. **Open `index.html`** in your browser.  
 3. Customize it as needed.  
 
-[![Download Joy Feelz To Do List Episod v1.0.0](https://img.shields.io/badge/📥%20Download%20Pen%20Rebirth%20To%20Do%20list%20-v1.0.0-blue?style=for-the-badge)](https://github.com/joyfeelz/Joy_Feelz_To_Do_List_Episod_v1/releases/tag/v1.0.0)
+[![Download Joy Feelz To Do List Episod v1.0.0](https://img.shields.io/badge/📥%20Download%20Joy%20Feelz%20To%20Do%20list%20-v1.0.0-blue?style=for-the-badge)](https://github.com/Joyfeelz/Joy_Feelz_To_Do_List_Episod_v1/releases/tag/v1.0.0)
 
 ---
 
